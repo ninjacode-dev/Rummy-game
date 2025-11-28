@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    
+}
+body{
+    background-image:linear-gradient( rgb(22, 128, 22) , rgb(3, 69, 3));
+    height: 100vh;
+}
+h1{
+   
+    text-align: center;
+    margin: 80px 0 60px 0;
+    color: rgb(222, 222, 191);
+    font-size : 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+   
+}
+.max{
+   margin: 40px;
+   text-align: center;
+   font-size: larger;
+   color: #e2eccb;
+}
+#maxresult{
+    background-color:  transparent;
+    border: none;
+    color: #e2eccb;
+    font-size: 20px;
+    width: 70px ;
+}
+.tab{
+    
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    gap: 20px ;
+    
+     
+   
+}
+table{
+    border-collapse: collapse;
+    background-color: #e2eccb;
+  
+   
+    
+}
+tr{
+    
+}
+th , td{
+    border: rgb(35, 54, 16) 2px solid ;
+    height: 50px;
+    text-align: center;
+    box-shadow: 0px 1px 4px ;
+}
+#num1 , #num2{
+   background-color: #e2eccb;
+   border: none;
+    padding: 20px 70px;
+    font-size: larger;
+    
+}
+
+th{
+   
+    background-color: #b8e089;
+    padding: 20px 70px;
+    
+}
+#sub{
+    height: 30px;
+    width: 300px;
+    color: rgb(14, 132, 14);
+    border:rgb(10, 68, 12) solid 2px ;
+    border-radius: 8px;
+    box-shadow: 1px 0px 4px inset;
+    margin: auto;
+    margin-bottom: -4px;
+
+}
+#res{
+  height: 30px;
+    width: 300px;
+    color: rgb(147, 15, 15);
+    border:rgb(67, 10, 10) solid 2px ;
+    border-radius: 8px;
+    box-shadow: 1px 0px 4px inset;
+    margin: auto;
+}
+#winner{
+    color: #efc0af;
+    font-size: 40px ;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+.hide {
+  display: none;
+}
